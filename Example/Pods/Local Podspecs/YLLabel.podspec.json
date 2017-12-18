@@ -1,7 +1,7 @@
 {
   "name": "YLLabel",
   "version": "0.1.0",
-  "summary": "A short description of YLLabel.",
+  "summary": "A subclass for UILabel.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/feng654079/YLLabel",
   "license": {

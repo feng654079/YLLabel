@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D9FD4ABEBDF02B0B6AE79DB64A8366 /* YLLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F78107A6AC829165C63C99308E4F7F /* YLLabel.swift */; };
 		2D33B60E6E14047C74A8CF2F033C4CDC /* Pods-YLLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D06EB436E03EDC42EBB60B093278F476 /* Pods-YLLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33CE194658A6CAEF98B86C4576EE269F /* Pods-YLLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3587A776ACE76934E889FD408A6E165E /* Pods-YLLabel_Example-dummy.m */; };
 		3D41E8B77D9E0D319030558726138C9B /* Pods-YLLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FB97455D7079A4A58959805F181988 /* Pods-YLLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ECB1BDC6BCBFEF5BC6770E8D42364BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		563A8B8FB7C478AA81D22D428A07D314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7345679AB7D62CAD85D3B58C4839DCC4 /* YLLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA8C443C91138032427E2254B77973B /* YLLabel-dummy.m */; };
-		770B6AC25F7A58E95B23F8011111481A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F83F926B11213CBC3BE5ED41FFAB /* ReplaceMe.swift */; };
 		94DEF3F8E4C7D396E3E3E46EBDB1F1D6 /* Pods-YLLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B23C8D4F8E9775AFC82BEE09EA7D785F /* Pods-YLLabel_Tests-dummy.m */; };
 		C171EB58065AAB959B4788EC90A7C4CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F9AF1E3CE29C0815E37B5D5A144BBC43 /* YLLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE74F8EC2641950DBE621F220E15DE7 /* YLLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDABD429CEDAF08280FF685AFAEDD0D /* YLLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4F7734FDA388FD0FC8EA95C1F6319 /* YLLabel-dummy.m */; };
+		F9AF1E3CE29C0815E37B5D5A144BBC43 /* YLLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96ACCA7E829B8E239289C2D0DCAE668B /* YLLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,14 +31,13 @@
 
 /* Begin PBXFileReference section */
 		15E2DA904610799336726109B38C8E83 /* Pods-YLLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		192E3CB57D26BBB14571C2377C78D5EC /* YLLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLLabel.xcconfig; sourceTree = "<group>"; };
-		25F7F83F926B11213CBC3BE5ED41FFAB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YLLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		21C49AAAC72413B6B1E52A97ED822BD5 /* YLLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLLabel-prefix.pch"; sourceTree = "<group>"; };
+		263545E95326A562678B8AF297DAC31F /* YLLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YLLabel.modulemap; sourceTree = "<group>"; };
 		340AF8A1F254621A1AB3C382F59A12B0 /* Pods-YLLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3587A776ACE76934E889FD408A6E165E /* Pods-YLLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		4CFE1572F82295267D9E5A412C3E97AF /* Pods-YLLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		54F1A6ACEEE07881ABDEB342B445E412 /* Pods-YLLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YLLabel_Example.modulemap"; sourceTree = "<group>"; };
 		56FB97455D7079A4A58959805F181988 /* Pods-YLLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLLabel_Example-umbrella.h"; sourceTree = "<group>"; };
-		5B3D94750B490133FDBB97165CEAEF1A /* YLLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YLLabel.modulemap; sourceTree = "<group>"; };
 		5E38D7DAEEB1C3634B14B0FA0A10DDF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F354A9246FA8D765C2DCF070CB0E705 /* Pods_YLLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLLabel_Example.framework; path = "Pods-YLLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -47,20 +46,21 @@
 		8DD9A03A0524DB4263C7570326ADACCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FD466963C5A27CFB137C94C71B48C99 /* Pods-YLLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AE74F8EC2641950DBE621F220E15DE7 /* YLLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLLabel-umbrella.h"; sourceTree = "<group>"; };
+		96ACCA7E829B8E239289C2D0DCAE668B /* YLLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLLabel-umbrella.h"; sourceTree = "<group>"; };
 		9BD03A3B1369B19FD75AD2397A8BA7C5 /* Pods-YLLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		9C6CF2EBE29CDFA4E2CBD18EF3A8B181 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A10E2B0B473A86F51BB27DEE88EC4EAD /* Pods-YLLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A2F78107A6AC829165C63C99308E4F7F /* YLLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YLLabel.swift; path = YLLabel/Classes/YLLabel.swift; sourceTree = "<group>"; };
 		A3BA08EFB7D759CD43C280A3113EBD49 /* Pods-YLLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B23C8D4F8E9775AFC82BEE09EA7D785F /* Pods-YLLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		B5ABA8084F48B15884ED092F1A50FC5E /* Pods-YLLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YLLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		BCB025BBF6FD28F35E0131B444834EA5 /* Pods-YLLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C198195021C69109CC62DF6D441E7977 /* YLLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLLabel.framework; path = YLLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C661CD9E664EE21D4620E49C1254FE21 /* Pods-YLLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLLabel_Example-resources.sh"; sourceTree = "<group>"; };
-		C96C78EB78F02177576B1C7BA0C97E17 /* YLLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLLabel-prefix.pch"; sourceTree = "<group>"; };
 		CBD64DB454B13750A71D8E486A8D8CAC /* Pods-YLLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D06EB436E03EDC42EBB60B093278F476 /* Pods-YLLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D5F112EE29A59E916A9AC2E5E9809B56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBA8C443C91138032427E2254B77973B /* YLLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLLabel-dummy.m"; sourceTree = "<group>"; };
+		DEA4F7734FDA388FD0FC8EA95C1F6319 /* YLLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLLabel-dummy.m"; sourceTree = "<group>"; };
+		E42CAD6A1F7F70393DE8FA974CA426B1 /* YLLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLLabel.xcconfig; sourceTree = "<group>"; };
 		F6D798D66E3F5DE7B85B2C7AC6886F0B /* Pods-YLLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,22 +92,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16AD8172B436091D37840A20EECC020A /* YLLabel */ = {
-			isa = PBXGroup;
-			children = (
-				25F7F83F926B11213CBC3BE5ED41FFAB /* ReplaceMe.swift */,
-				CBBE89B285719C93C9BB8FE8FA627E03 /* Support Files */,
-			);
-			name = YLLabel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		19E23D5D3B3DA397566C49F082547512 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				16AD8172B436091D37840A20EECC020A /* YLLabel */,
+				A780DB7F46259CC2D38601D97554300A /* YLLabel */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1A59957878ABE657765D0295FBCAB0A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C6CF2EBE29CDFA4E2CBD18EF3A8B181 /* Info.plist */,
+				263545E95326A562678B8AF297DAC31F /* YLLabel.modulemap */,
+				E42CAD6A1F7F70393DE8FA974CA426B1 /* YLLabel.xcconfig */,
+				DEA4F7734FDA388FD0FC8EA95C1F6319 /* YLLabel-dummy.m */,
+				21C49AAAC72413B6B1E52A97ED822BD5 /* YLLabel-prefix.pch */,
+				96ACCA7E829B8E239289C2D0DCAE668B /* YLLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLLabel";
 			sourceTree = "<group>";
 		};
 		6E233572754519159171C13CD6111F68 /* Targets Support Files */ = {
@@ -148,6 +152,16 @@
 			path = "Target Support Files/Pods-YLLabel_Example";
 			sourceTree = "<group>";
 		};
+		A780DB7F46259CC2D38601D97554300A /* YLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A2F78107A6AC829165C63C99308E4F7F /* YLLabel.swift */,
+				1A59957878ABE657765D0295FBCAB0A2 /* Support Files */,
+			);
+			name = YLLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,20 +178,6 @@
 				C198195021C69109CC62DF6D441E7977 /* YLLabel.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CBBE89B285719C93C9BB8FE8FA627E03 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D5F112EE29A59E916A9AC2E5E9809B56 /* Info.plist */,
-				5B3D94750B490133FDBB97165CEAEF1A /* YLLabel.modulemap */,
-				192E3CB57D26BBB14571C2377C78D5EC /* YLLabel.xcconfig */,
-				DBA8C443C91138032427E2254B77973B /* YLLabel-dummy.m */,
-				C96C78EB78F02177576B1C7BA0C97E17 /* YLLabel-prefix.pch */,
-				9AE74F8EC2641950DBE621F220E15DE7 /* YLLabel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YLLabel";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -275,7 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C84738DDFCFA47C54837671009771D /* Build configuration list for PBXNativeTarget "YLLabel" */;
 			buildPhases = (
-				E9BE0E87514ED4F28AD82E8233D9934B /* Sources */,
+				E3050DD38C9BBABCA2700E93C4457D48 /* Sources */,
 				44AE402CC20821D2B451708D7D9D55F2 /* Frameworks */,
 				B081985F1EEB17EEFC5E5A61A7F62946 /* Headers */,
 			);
@@ -333,12 +333,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9BE0E87514ED4F28AD82E8233D9934B /* Sources */ = {
+		E3050DD38C9BBABCA2700E93C4457D48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770B6AC25F7A58E95B23F8011111481A /* ReplaceMe.swift in Sources */,
-				7345679AB7D62CAD85D3B58C4839DCC4 /* YLLabel-dummy.m in Sources */,
+				EEDABD429CEDAF08280FF685AFAEDD0D /* YLLabel-dummy.m in Sources */,
+				10D9FD4ABEBDF02B0B6AE79DB64A8366 /* YLLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +450,7 @@
 		};
 		535C527DB23F3C5CA9C111AD6AF090CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 192E3CB57D26BBB14571C2377C78D5EC /* YLLabel.xcconfig */;
+			baseConfigurationReference = E42CAD6A1F7F70393DE8FA974CA426B1 /* YLLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -536,7 +536,7 @@
 		};
 		7ADEA2F64F8CDAAEE3C7774D38DBA7C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 192E3CB57D26BBB14571C2377C78D5EC /* YLLabel.xcconfig */;
+			baseConfigurationReference = E42CAD6A1F7F70393DE8FA974CA426B1 /* YLLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
