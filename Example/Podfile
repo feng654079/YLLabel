@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YLLabel_Example' do
+  pod 'YLLabel', :path => '../'
+
+  target 'YLLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
