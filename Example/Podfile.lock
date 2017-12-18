@@ -1,0 +1,16 @@
+PODS:
+  - YLLabel (0.1.0)
+
+DEPENDENCIES:
+  - YLLabel (from `../`)
+
+EXTERNAL SOURCES:
+  YLLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YLLabel: edb51bb453d7bc74fb4b3688d84d69abd5f059c0
+
+PODFILE CHECKSUM: fd4cd75b6e835984c48ad60a770efbfa0452ac66
+
+COCOAPODS: 1.3.1

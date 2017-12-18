@@ -1,0 +1,6 @@
+framework module Pods_YLLabel_Example {
+  umbrella header "Pods-YLLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
